@@ -11,7 +11,42 @@
         <meta property="og:image" content="https://balls.catfile.me/static/fastmerging.gif">
     </head>
 
-    <body>
+    <body><center>
+        <script type="text/javascript">
+
+        today = new Date();
+        
+        BigDay = new Date("November 01, 2021");
+        
+        msPerDay = 24 * 60 * 60 * 1000 ;
+        
+        timeLeft = (BigDay.getTime() - today.getTime());
+        
+        e_daysLeft = timeLeft / msPerDay;
+        
+        daysLeft = Math.floor(e_daysLeft);
+        
+        e_hrsLeft = (e_daysLeft - daysLeft)*24;
+        
+        hrsLeft = Math.floor(e_hrsLeft);
+        
+        minsLeft = Math.floor((e_hrsLeft - hrsLeft)*60);
+        
+        document.write("Only<BR> <H4>" + daysLeft + " days " + hrsLeft +" hours and " + minsLeft + " minutes left </H4> until Hacktoberfest ends :(<P>");
+        
+        </script>
+    <br>
+    <select name="clr" onchange="document.fgColor=this.options[this.selectedIndex].value" size="1">
+        <br>
+        <option value="white">white
+            <option value="orange">orange
+                <option value="flamingred">fuschia
+                    <option value="lightyellow">light yellow
+                        <option value="cyan">cyan
+                            <option value="yellow">yellow
+                                <option value="red">red
+                                    <option value="black">black</option>
+    </select>&nbsp;&nbsp;White is annoying? Choose another color!</center>
         <body text="#ffffff" link="#ff0000" vlink="#ff0000" alink="#ff0000">
 
         <marquee scrollamount="20"><h2 class="welcome-text">balls</h2></marquee>
