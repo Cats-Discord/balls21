@@ -1,5 +1,7 @@
 add things to this website to get a free tshirt
 
+cats are cool and i love them and that is all - synthi
+
 # testimonials 
 ![](https://cdn.discordapp.com/attachments/798352869874728964/896158802565541898/unknown.png)
 

@@ -1,55 +1,68 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Balls</title>
-        <link rel="stylesheet" type="text/css" href="static/styles.css" media="screen" />
 
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="https://balls.catfile.me">
-        <meta property="og:title" content="official balls website">
-        <meta property="og:description" content="add things to this website to get a free tshirt">
-        <meta property="og:image" content="https://balls.catfile.me/static/fastmerging.gif">
-    </head>
+<head>
+    <title>balls</title>
+    <link rel="stylesheet" type="text/css" href="static/styles.css" media="screen" />
 
-    <body><center>
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://balls.catfile.me">
+    <meta property="og:title" content="official balls website">
+    <meta property="og:description" content="add things to this website to get a free tshirt">
+    <meta property="og:image" content="https://balls.catfile.me/static/fastmerging.gif">
+</head>
+
+<body>
+    <center>
         <script type="text/javascript">
 
-        today = new Date();
-        
-        BigDay = new Date("November 01, 2021");
-        
-        msPerDay = 24 * 60 * 60 * 1000 ;
-        
-        timeLeft = (BigDay.getTime() - today.getTime());
-        
-        e_daysLeft = timeLeft / msPerDay;
-        
-        daysLeft = Math.floor(e_daysLeft);
-        
-        e_hrsLeft = (e_daysLeft - daysLeft)*24;
-        
-        hrsLeft = Math.floor(e_hrsLeft);
-        
-        minsLeft = Math.floor((e_hrsLeft - hrsLeft)*60);
-        
-        document.write("Only<BR> <H4>" + daysLeft + " days " + hrsLeft +" hours and " + minsLeft + " minutes left </H4> until Hacktoberfest ends :(<P>");
-        
-        </script>
-    <br>
-    <select name="clr" onchange="document.fgColor=this.options[this.selectedIndex].value" size="1">
-        <br>
-        <option value="white">white
-            <option value="orange">orange
-                <option value="flamingred">fuschia
-                    <option value="lightyellow">light yellow
-                        <option value="cyan">cyan
-                            <option value="yellow">yellow
-                                <option value="red">red
-                                    <option value="black">black</option>
-    </select>&nbsp;&nbsp;White is annoying? Choose another color!</center>
-        <body text="#ffffff" link="#ff0000" vlink="#ff0000" alink="#ff0000">
+            today = new Date();
 
-        <marquee scrollamount="20"><h2 class="welcome-text">balls</h2></marquee>
+            BigDay = new Date("November 01, 2021");
+
+            msPerDay = 24 * 60 * 60 * 1000;
+
+            timeLeft = (BigDay.getTime() - today.getTime());
+
+            e_daysLeft = timeLeft / msPerDay;
+
+            daysLeft = Math.floor(e_daysLeft);
+
+            e_hrsLeft = (e_daysLeft - daysLeft) * 24;
+
+            hrsLeft = Math.floor(e_hrsLeft);
+
+            minsLeft = Math.floor((e_hrsLeft - hrsLeft) * 60);
+
+            document.write("Only<BR> <H4>" + daysLeft + " days " + hrsLeft + " hours and " + minsLeft + " minutes left </H4> until Hacktoberfest ends :(<P>");
+
+            function bgSwap() {
+                document.body.style.backgroundImage = 'url(static/Nubmer_six_COCK.gif)';
+            }
+
+        </script>
+        <br>
+        <select name="clr" onchange="document.fgColor=this.options[this.selectedIndex].value" size="1">
+            <br>
+            <option value="white">white
+            <option value="orange">orange
+            <option value="flamingred">fuschia
+            <option value="lightyellow">light yellow
+            <option value="cyan">cyan
+            <option value="yellow">yellow
+            <option value="red">red
+            <option value="black">black</option>
+        </select>&nbsp;&nbsp;White is annoying? Choose another color!
+        <br>
+        <button onclick="bgSwap()">click to change background to cat</button>
+
+    </center>
+
+    <body text="#ffffff" link="#ff0000" vlink="#ff0000" alink="#ff0000">
+
+        <marquee scrollamount="20">
+            <h2 class="welcome-text">balls</h2>
+        </marquee>
 
         <a href="/">go home</a> | <a href="friend.html">friend</a> | <a href="balls.html">balls gallery</a>
 
@@ -57,7 +70,7 @@
         <p class="center">
             tästä voi mennä
         </p>
-    
+
         <h1 class="center">funny cat images</h1>
 
         <table>
@@ -78,11 +91,14 @@
                 <td><img src="static/image0-4.gif" /></td>
 
                 <td><img src="static/playing-snow-snow.gif" /></td>
+
+                <td><img src="static/drippy.gif" /></td>
             </tr>
         </table>
 
         <footer>
-            <span class="footer-text center">🔥 want a free tshirt? contribute via <a href="https://github.com/jacksonisiah/balls">hacktoberfest</a> 🔥</span>
+            <span class="footer-text center">🔥 want a free tshirt? contribute via <a
+                    href="https://github.com/jacksonisiah/balls">hacktoberfest</a> 🔥</span>
             <span class="footer-text center">sponsored by the cats discord. website is public domain</span>
 
             <img class="center" style="width: 10%;" src="static/incredible.gif" />
@@ -93,8 +109,8 @@
 
 
     <script type="text/javascript">
-    
-    
+
+
     </script>
 
 </html>
